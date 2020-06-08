@@ -1,5 +1,7 @@
-sorozat1 = [3, 5, 9, 10, 13, 11, 12]
-sorozat2 = [2, 1, 4, 8, 15, 7, 6, 14]
+sorozat1 = [3, 20, 5, 9, 10, 13, 11, 12, 16, 18, 17]
+sorozat1.sort()
+sorozat2 = [2, 1, 4, 8, 15, 7, 6, 14, 19]
+sorozat2.sort()
 
 def merge(arr1, arr2):
   arr3=[0] * (len(arr1)+len(arr2))
@@ -29,4 +31,6 @@ def merge(arr1, arr2):
     j=j+1
   return arr3
 
-print(merge(sorozat1, sorozat2))
+mergedlist = merge(sorozat1, sorozat2)
+print(mergedlist)
+print("len of arr1:",len(sorozat1),", len of arr2: ",len(sorozat2),", len of mergedlist: ",len(mergedlist))
