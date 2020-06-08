@@ -1,6 +1,5 @@
 sorozatA = [1, 2, 3, 3, 3, 2, 1, 1, 1, 1]
 sorozatB = [1, 2]
-t = 1
 
 def kivalogat(sorA, sorB):
     db = 0

@@ -1,7 +1,6 @@
 sor = [2,5,3,1,4]
 sorozat = [3, 5, 9, 10, 33, 2, 5 , 4, 6, 8, 11, 12]
-print("eredeti: ", sorozat)
-print("-------------------------")
+print(sorozat)
 
 def beszuro(sorozat):
     c=len(sorozat)-1

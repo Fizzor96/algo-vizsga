@@ -1,4 +1,5 @@
 sorozat = [3, 5, 9, 10, 33, 2, 5 , 4, 6, 8, 11, 12]
+#a sorozatt rendezettsége előfeltétel!
 sorozat.sort()
 print(sorozat)
 
