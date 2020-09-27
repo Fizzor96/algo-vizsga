@@ -1,0 +1,17 @@
+1. feladat
+    Adott egy sorozat:
+    "import numpy as np"
+    "from numpy import random as rnd"
+    "sorozat=rnd.randint(100, size=(30))"
+        1.1 Írj egy algoritmust, ami lineáris kereséssel megállapítja, hogy az adott sorozat tartalmaz-e páros számot! (for ciklus)
+        1.2 Írj egy algoritmust, ami lineáris kereséssel megállapítja, hogy az adott sorozat tartalmaz-e páros számot! (while ciklus)
+        1.3 Írj egy algoritmust, ami lineáris kereséssel megállapítja egy keresett szám helyét!
+        1.4 Írj egy algoritmust, ami lineáris kereséssel megállapítja egy keresett szám helyét egy rendezett sorban!
+        1.5 Írj egy algoritmust, ami strázsás kereséssel megállapítja, hogy az adott sorozat tartalmaz-e páros számot!
+        1.6 Írj egy algoritmust, ami bináris kereséssel megállapítja, hogy az adott sorozat tartalmaz-e egy megadott számot!
+2. feladat
+    2.1 Írj egy programot, ami egy tömbbe (A), legenerál 100 darab véletlen számot (1-1000 közötti szám) növekvő sorrendben (nem használhatsz sort / rendező algoritmust, vagyis úgy kell generálni, hogy mindig nagyobb legyen az új szám, mint az előző). Majd ezután ugyanígy, egy másik tömbbe (B), növekvő sorrendben legenerálj 50 darab újabb számot. Ezután készít egy olyan 50 elemű logikai tömböt (C), ami megmondja, hogy az 50 darab szám benne van-e a 100 darabos tömbben: C[i] = B[i] benne van-e A-ban. Példa:
+        A = [1, 4, 6, 9, 34 ...]
+        B = [1, 8, 9, 34 ...]
+        C = [IGAZ, HAMIS, IGAZ, IGAZ ...]
+    2.2 Használd ki, hogy rendezett a sor. Ha volt találat, akkor a következő keresésénél már ne az elejétől kezdje a keresést.
